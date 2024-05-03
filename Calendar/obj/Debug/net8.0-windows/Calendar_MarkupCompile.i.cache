@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\cutec\source\repos\Calendar\Calendar\obj\Debug\net8.0-windows\
+C:\Users\User\source\repos\Practice-6\Calendar\obj\Debug\net8.0-windows\
 Calendar
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\cutec\source\repos\Calendar\Calendar\App.xaml
-1-487866684
+C:\Users\User\source\repos\Practice-6\Calendar\App.xaml
+4-1790262520
 
-9-1902476068
-2011683290564
-View\MainWindow.xaml;
+14-49280488
+2011832822123
+View\CalendarPage.xaml;View\DayCard.xaml;View\DayPage.xaml;View\MainWindow.xaml;
 
 True
 

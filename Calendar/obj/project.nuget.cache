@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NwmKXGlIGMH8csRfBTh1nJ8ZHtBKJQX8cKt7zoqIBawURCBOWS30hPB08ZlJfPYYlYEhbtJBdfUmCrgHg0o6sg==",
+  "dgSpecHash": "owmSVFhoGA7WDhhseLTQiURVGZubIhCV1moxw6WP+1ojK5Fb3FEaD4/0dRg2zN8lZHyzwC7zVttO831hoHoU7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cutec\\source\\repos\\Calendar\\Calendar\\Calendar.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Practice-6\\Calendar\\Calendar.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cutec\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
-    "C:\\Users\\cutec\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
-    "C:\\Users\\cutec\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\materialdesigncolors\\3.0.0\\materialdesigncolors.3.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\materialdesignthemes\\5.0.0\\materialdesignthemes.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
   ],
   "logs": []
 }
