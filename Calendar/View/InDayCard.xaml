@@ -14,7 +14,27 @@
         </Grid.ColumnDefinitions>
 
         <CheckBox HorizontalAlignment="Center"/>
-        <Image Grid.Column="1" Source="{Binding Path=PicSource}" HorizontalAlignment="Center" Margin="15"/>
+        <Image Grid.Column="1" Source="{Binding Path=PicSource}" HorizontalAlignment="Center" Margin="15">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <RotateTransform CenterX="50" CenterY="50" />
+                </TransformGroup>
+            </Image.RenderTransform>
+            <Image.Triggers>
+                <EventTrigger RoutedEvent="MouseEnter">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(RotateTransform.Angle)" Duration="0:0:1">
+                                    <EasingDoubleKeyFrame KeyTime="0:0:0" Value="0"/>
+                                    <EasingDoubleKeyFrame KeyTime="0:0:1" Value="360"/>
+                                </DoubleAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </Image.Triggers>
+        </Image>
         <TextBlock Text="{Binding Naming}" Grid.Column="2" HorizontalAlignment="Center" FontSize="14" VerticalAlignment="Center"/>
         
     </Grid>

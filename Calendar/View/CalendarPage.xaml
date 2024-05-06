@@ -8,6 +8,18 @@
       d:DesignHeight="500" d:DesignWidth="400"
       Title="CalendarPage">
 
+    <Page.Triggers>
+        <EventTrigger RoutedEvent="Loaded">
+            <EventTrigger.Actions>
+                <BeginStoryboard>
+                    <Storyboard>
+                        <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:1"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger.Actions>
+        </EventTrigger>
+    </Page.Triggers>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
