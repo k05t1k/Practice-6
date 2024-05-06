@@ -31,7 +31,14 @@
             <Button Grid.Column="2" Content="След." Style="{StaticResource MaterialDesignRaisedDarkButton}"/>
         </Grid>
 
-        <WrapPanel x:Name="myWrapPanel"/>
+        <WrapPanel x:Name="myWrapPanel">
+            <WrapPanel.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Посмотреть этот день"/>
+                    <MenuItem Header="Очистить этот день"/>
+                </ContextMenu>
+            </WrapPanel.ContextMenu>
+        </WrapPanel>
         
     </Grid>
 </Page>
