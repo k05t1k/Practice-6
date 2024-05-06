@@ -21,7 +21,7 @@ namespace Calendar
         {
             InitializeComponent();
             DataContext = new MainViewModel();
-            MainFrame.Content = new CalendarPage();
+            MainFrame.Content = new DayPage();
         }
     }
 }

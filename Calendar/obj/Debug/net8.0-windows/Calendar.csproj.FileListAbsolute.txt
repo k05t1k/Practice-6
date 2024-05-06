@@ -58,3 +58,5 @@ C:\Users\User\Source\Repos\Practice-6\Calendar\obj\Debug\net8.0-windows\View\Day
 C:\Users\User\Source\Repos\Practice-6\Calendar\obj\Debug\net8.0-windows\View\DayCard.baml
 C:\Users\User\Source\Repos\Practice-6\Calendar\obj\Debug\net8.0-windows\View\DayPage.baml
 C:\Users\User\Source\Repos\Practice-6\Calendar\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\source\repos\Practice-6\Calendar\obj\Debug\net8.0-windows\View\InDayCard.g.cs
+C:\Users\User\source\repos\Practice-6\Calendar\obj\Debug\net8.0-windows\View\InDayCard.baml
